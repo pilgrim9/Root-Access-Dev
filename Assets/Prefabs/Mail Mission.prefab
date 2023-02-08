@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7069602863326324255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7069602863326324254}
+  - component: {fileID: 7069602863326324225}
+  m_Layer: 0
+  m_Name: Mail Mission
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7069602863326324254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7069602863326324255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1314.9008, y: 337.65347, z: -15.990076}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7069602863326324225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7069602863326324255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4474562f5f53b5845b61fae8cac157d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missions: []
+  files: []
+  apps:
+  - 3dMax
+  - Photoshop
+  - Unity
+  - Word
+  - Firefox
+  - Antivirus
+  - Minecraft
+  firstFileName:
+  - Presupuesto
+  - Imagen
+  - Presentacion
+  - Miami
+  - Documentacion
+  formatName:
+  - .ppt
+  - .jpg
+  - .rar
+  - .pdf
+  - .mat
+  filesCreates: []
+  onMissionComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: EventSound, Assembly-CSharp
+        m_MethodName: MissionCompleteSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onMissionCreated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  emailText: {fileID: 0}
+  tutorialMissions:
+  - {fileID: 11400000, guid: 69a149e1036c12641897086155a3cbb2, type: 2}
+  - {fileID: 11400000, guid: 1ba684c7dec2c5d428d886395b8bcf65, type: 2}
+  - {fileID: 11400000, guid: 9fac9967495cc5046b0d32c8c7d0c4ca, type: 2}
+  - {fileID: 11400000, guid: 1af100e4dddeed04bae4f43b80f623a8, type: 2}
+  - {fileID: 11400000, guid: b98b8fdcf22cc6f46bdbb8d57b340704, type: 2}
+  - {fileID: 11400000, guid: 3da28cb9a6fc1344c81378072da8ed3d, type: 2}
+  - {fileID: 11400000, guid: de8dd8c9115a04c4ba567cc071557039, type: 2}
+  portapapeles: {fileID: 0}
+  playerName: 

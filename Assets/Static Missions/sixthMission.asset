@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4aa2b73184d78e47a32e2e399e0488b, type: 3}
+  m_Name: sixthMission
+  m_EditorClassIdentifier: 
+  text: 'Ahora que estamos en la carperta <color=#E200FF>trabajo</color>, vamos a
+    mover el archivo a un lugar mas adecuado. Para eso primero hay que cortarlo:
+
+    1.
+    cut <color=#E3A10E>TioBorracho.png</color>
+
+    2. Utiliza back para retroceder.
+
+    3.
+    Ahora open para entrar a <color=#E200FF>navidad</color>.
+
+    4. Por ultimo,
+    utiliza el comando paste.'
+  type: 0
