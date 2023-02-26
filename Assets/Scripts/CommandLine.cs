@@ -171,7 +171,7 @@ public class CommandLine : MonoBehaviour
             return;
         }
         FileSystem.instance.clipboard = FileSystem.instance.currentFolder.Cut(file);
-        output = "Archivo cortado: "+Colors.File(name)+".\n";
+        output = "Archivo cortado: "+ Colors.File(file)+".\n";
         List("");
     }
     public void Paste(string parameters)
@@ -214,7 +214,7 @@ public class CommandLine : MonoBehaviour
             Error("List no requiere parametros.");
             return;
         }
-        output += "Contenidos de la carpeta:";
+        output += "Contenidos de la carpeta:\n";
         ListFolders();
         ListFiles();
     }
