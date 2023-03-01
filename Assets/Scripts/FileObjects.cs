@@ -1,13 +1,9 @@
-using UnityEngine;
-using System.Collections.Generic;
 using System;
-using System.IO;
-using System.Linq;
-using Unity.VisualScripting;
-using Unity.VisualScripting.Dependencies.NCalc;
+using System.Collections.Generic;
+using UnityEngine;
 using Object = System.Object;
 
-[System.Serializable]
+[Serializable]
 public class OSFolder: Object
 {
     public OSFolder(){}
@@ -125,7 +121,7 @@ public class OSFolder: Object
     }
 }
 
-[System.Serializable]
+[Serializable]
 public class OSFile : Object
 {
     public OSFile() {}

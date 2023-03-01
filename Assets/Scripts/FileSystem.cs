@@ -1,5 +1,5 @@
 using UnityEngine;
-using System.Collections.Generic;
+
 public class FileSystem : MonoBehaviour
 {
     public OSFile clipboard = null;
