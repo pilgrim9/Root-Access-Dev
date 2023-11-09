@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 public static class Colors
 {
@@ -18,7 +19,7 @@ public static class Colors
     {
         foreach (var substring in collection)
         {
-            input = input.Replace(substring, Wrap(substring, color), StringComparison.OrdinalIgnoreCase);
+            input = Regex.Replace(input, @"\b"+substring+@"\b", Wrap(substring, color), RegexOptions.IgnoreCase);
         }
         return input;
     }
